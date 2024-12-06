@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>home</title>
+</head>
+<body>
+   
+    <div class="container">
+
+    <header class="header" id="headerContainer">
+        <section class="navbar">
+            <div class="logo">
+              <img width="30" height="30" src="./assets/logo2.png" alt="logo">
+              <p>ZetuMedi</p>
+            </div>
+            <div class="menu">
+                <button aria-label="Navigation icon" class="navbar-icon" id="navbarIcon"><img width="26" height="26" src="./assets/menu.png" alt="menu icon"/>  </button>
+                </div>
+                       </section>
+                       <ul class="navbar-container" id="navbarContainer">
+                        <li class="navbar-item"><a href="#">Home</a> </li>
+                        <li class="navbar-item"><a href="#">About Us</a></li>
+                        <li class="navbar-item"><a href="#">Projects</a></li>
+                    </ul>
+
+        <h1 class="header-text" id="headerText">ZetuMedi PRESENTS <br> AHG MACHINE </h1>
+    </header>
+
+        <main class="main">
+            <div>
+                <section class="carousel">
+                    <button id="prevBtn" aria-label="Previous slide" class="carousel-btn"><img src="./assets/prv-btn.png" alt="Prev button" width="60px"></button>
+                    <div class="carousel-card">
+                        <img id="carouselImage" src="./assets/image.jpg" alt="image at costech" width="274px" height="141px">
+                        <p id="carouselText">AHG machine at the exhibitions of COSTECH</p>
+                    </div>
+                    <button id="nextBtn" aria-label="Next slide" class="carousel-btn"><img src="./assets/nxt-btn.png" alt="next button" width="60px"></button>
+                </section>
+                <div class="dots">
+                    <span active class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            
+
+            <section class="about">
+                <h2 class="about-title">ABOUT AHG</h2>
+                <p class="about-parag">This is the medical device that helps to generate heat in cold environment and hence prevent hypothermia problems</p>
+                <button aria-label="read more" class="about-btn">Read More</button>
+            </section>
+
+            <section class="team">
+                <h2 class="team-title">THE TEAM</h2>
+                <div class="team-card">
+                    <img src="./assets/team-0.jpeg" id="teamImage" alt="" class="team-img" width="132px" height="132px">
+                    <p class="team-card-name" id="teamName">Staphord Mwahalende</p>
+                    <p class="team-card-position" id="teamPosition">CTO</p>
+                </div>
+                <div class="dots">
+                    <span class="dot teamDot"></span>
+                    <span class="dot teamDot"></span>
+                    <span class="dot teamDot"></span>
+                    <span class="dot teamDot"></span>
+                </div>
+            </section>
+
+            <section class="faq">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <details class="faq-card">
+                    <summary class="faq-card-title">
+                        <img src="./assets/dropdown.png" alt="" class="faq-card-dropdown" width="29px">
+                        What is Auto heat machine?
+                    </summary>
+                    <p class="faq-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi repellendus pariatur repellat cumque! Et, possimus, fuga unde debitis </p>
+                </details>
+
+                <details class="faq-card">
+                    <summary class="faq-card-title">
+                        <img src="./assets/dropdown.png" alt="" class="faq-card-dropdown" width="29px" height="29px">
+                        What are specification of AHG?
+                    </summary>
+                    <p class="faq-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi repellendus pariatur repellat cumque! Et, possimus, fuga unde debitis </p>
+                </details>
+
+                <details class="faq-card">
+                    <summary class="faq-card-title">
+                        <img src="./assets/dropdown.png" alt="" class="faq-card-dropdown" width="29px">
+                        What can i get AHG?
+                    </summary>
+                    <p class="faq-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi repellendus pariatur repellat cumque! Et, possimus, fuga unde debitis </p>
+                </details>
+
+                <details class="faq-card">
+                    <summary class="faq-card-title">
+                        <img src="./assets/dropdown.png" alt="" class="faq-card-dropdown" width="29px">
+                        What is TABESA?
+                    </summary>
+                    <p class="faq-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi repellendus pariatur repellat cumque! Et, possimus, fuga unde debitis </p>
+                </details>
+            </section>
+
+            <footer class="footer">
+                <ul class="links">
+                    <h3>Useful links</h3>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>
+
+                <div class="contacts">
+                    <h3 class="contacts-title">Contacts</h3>
+                        <p>Phone: +255 758 758 153</p>
+                        <p>E-mail: tabesamuhas@gmail.com</p>
+                    
+                </div>
+
+                <div class="social">
+                  <a href=""><img src="./assets/ins.png" alt="Instagram_icon" width="30px"></a>  
+                  <a href=""><img src="./assets/linked.png" alt="Linked_icon" width="30px"></a>  
+                    <p>Copyright &copy; 2024 . All rights reserved</p>
+                </div>
+            </footer>
+        </main>
+</div>
+<script src="script.js" type="module"></script>
+</body>
+</html>
